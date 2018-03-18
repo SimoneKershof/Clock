@@ -4,12 +4,32 @@
      padding: 0;
      height: 100vh;
   	 overflow: hidden;
+  	 background-color: black;
    
+}
+
+.sun{
+    position: absolute;
+    width: 80%;
+    left: -720px;
+    height: 300px;
+    top: 0%;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+.moon{
+    position: absolute;
+    width: 100%;
+    right: -810px;
+    height: 440px;
+    top: 110px;
+    margin: 0 auto;
+     opacity: 0; 
 }
 .center{
       margin: auto;
 
-      background: rgba(0, 0, 0, .9);  
       color: #FFFF;
 
     }
@@ -37,7 +57,7 @@ h1{
 }
 
 .center{
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -52,6 +72,24 @@ display: flex;
     margin: 0 auto;
 
 }
+#banner {
+     position: absolute;
+    width: 100vw;
+    top: 10px;
+    height: 100vw;
+    background: black;
+    z-index: -1
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background:white;
+    visibility: hidden;
+    opacity: 0;
+}
+
 
 img{
 	width: 100%
@@ -70,12 +108,19 @@ img{
 
     top: -1550px;
 }
-}
+.sun{
 
+    left: -1160px;
+}
+}
 @media screen and (max-width: 1800px) {
 .planetmars{
 
     top: -1411px;
+}
+.sun{
+
+    left: -990px;
 }
 }
 
@@ -84,12 +129,21 @@ img{
 
     top: -1250px;
 }
+.sun{
+
+    left: -820px;
+}
 }
 
 @media screen and (max-width: 1400px) {
 .planetmars{
 
     top: -1050px;
+}
+.sun{
+
+    left: -700px;
+    top:9%;
 }
 }
 
@@ -98,12 +152,19 @@ img{
 
     top: -950px;
 }
+.sun{
+	top: 17%;
+    left: -660px;
 }
 
 @media screen and (max-width: 1100px) {
 .planetmars{
 
     top: -850px;
+}
+.sun{
+	top: 20%;
+    left: -540px;
 }
 }
 
@@ -112,6 +173,10 @@ img{
 
     top: -650px;
 }
+.sun{
+	top: 20%;
+    left: -540px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -119,12 +184,23 @@ img{
 
     top: -450px;
 }
+.sun{
+	    top: 25%;
+    left: -450px;
+}
 }
 
 @media screen and (max-width: 600px) {
 .planetmars{
 
     top: -250px;
+}
+.sun{
+	 top: 30%;
+    left: -340px;
+}
+
+
 }
 }
 
@@ -150,4 +226,8 @@ h1{
 }
 .planetearth{
     bottom: -260px;
+}
+.sun{
+		 top: 35%;
+    left: -260px;}
 }
