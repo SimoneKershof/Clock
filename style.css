@@ -3,11 +3,21 @@
      margin: 0;
      padding: 0;
      height: 100vh;
+     width: 100vw;
   	 overflow: hidden;
   	 background-color: black;
    
 }
 
+html, body {
+  overflow-x:hidden 
+} 
+#noscroll{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+}
 .sun{
     position: absolute;
     width: 80%;
@@ -233,6 +243,10 @@ img{
 }
 
 @media screen and (max-width: 500px) {
+
+body{
+	overflow: hidden;
+}
 #clock{
     font-size: 3em;
     padding: 20px;
