@@ -19,13 +19,13 @@
 }
 
 .moon{
-    position: absolute;
-    width: 100%;
-    right: -810px;
-    height: 440px;
-    top: 110px;
+   position: absolute;
+    width: 60%;
+    right: -720px;
+    height: 300px;
+    top: 10%;
     margin: 0 auto;
-     opacity: 0; 
+    opacity: 0;
 }
 .center{
       margin: auto;
@@ -73,7 +73,7 @@ h1{
 
 }
 #banner {
-     position: absolute;
+    position: absolute;
     width: 100vw;
     top: 10px;
     height: 100vw;
@@ -83,8 +83,8 @@ h1{
 
 .star {
     position: absolute;
-    width: 2px;
-    height: 2px;
+    width: 6px;
+    height: 6px;
     background:white;
     visibility: hidden;
     opacity: 0;
@@ -133,6 +133,9 @@ img{
 
     left: -820px;
 }
+.moon{
+	 right: -610px;
+}
 }
 
 @media screen and (max-width: 1400px) {
@@ -145,6 +148,10 @@ img{
     left: -700px;
     top:9%;
 }
+.moon{
+	right: -550px;
+    top: 15%;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -156,6 +163,11 @@ img{
 	top: 17%;
     left: -660px;
 }
+.moon{
+	right: -460px;
+    top: 20%;
+}
+}
 
 @media screen and (max-width: 1100px) {
 .planetmars{
@@ -165,6 +177,11 @@ img{
 .sun{
 	top: 20%;
     left: -540px;
+}
+
+.moon{
+	right: -400px;
+    top: 25%;
 }
 }
 
@@ -177,6 +194,10 @@ img{
 	top: 20%;
     left: -540px;
 }
+.moon{
+	right: -400px;
+    top: 25%;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -187,6 +208,11 @@ img{
 .sun{
 	    top: 25%;
     left: -450px;
+}
+
+.moon{
+	right: -330px;
+    top: 30%;
 }
 }
 
@@ -199,25 +225,25 @@ img{
 	 top: 30%;
     left: -340px;
 }
-
-
+.moon{
+	    right: -280px;
+    top: 35%;
 }
+
 }
 
 @media screen and (max-width: 500px) {
 #clock{
-      font-size: 3em;
-      padding: 20px;
+    font-size: 3em;
+    padding: 20px;
  
 }
 #date{
 	font-size: 3em;
-	  padding: 20px;
+	padding: 20px;
       
 }
 h1{
-    
-
     font-size: 3em;
 }
 .planetmars{
@@ -228,6 +254,10 @@ h1{
     bottom: -260px;
 }
 .sun{
-		 top: 35%;
-    left: -260px;}
+	top: 35%;
+    left: -260px;
+}
+.moon{right: -210px;
+    top: 40%;
+}}
 }

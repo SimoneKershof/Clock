@@ -19,9 +19,14 @@ function showTime(){
      TweenMax.from(".sun", 90, { opacity: 1});
      }
 
-     if(hours > 17 && hours < 10){
+     if(hours > 17 && hours < 23){
      TweenMax.from(".moon", 90, { opacity: 1});
      }
+
+     // else{
+     // TweenMax.from(".moon", 90, { opacity: 0});
+     // }
+
      //  if(hours > 17 && hours < 12 ){
      // TweenMax.from(".sun", 90, { opacity: 0});
      // }
@@ -67,8 +72,8 @@ TweenMax.from("img", 900, { transformOrigin:"50% 50%", rotation:"+=360", repeat:
 }
 
 
-var width = 1200;
-var height = 1200;
+var width = 2800;
+var height = 2800;
 
 
 var banner = document.querySelector("#banner");
