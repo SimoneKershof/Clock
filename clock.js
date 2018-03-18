@@ -72,8 +72,8 @@ TweenMax.from("img", 900, { transformOrigin:"50% 50%", rotation:"+=360", repeat:
 }
 
 
-var width = 2800;
-var height = 2800;
+var width = 2000;
+var height = 2000;
 
 
 var banner = document.querySelector("#banner");
